@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  /* height: 200vh; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* start of nav */
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* padding: 8px; */
+  background-color: lightgray;
+  height: 80px;
+  position: fixed;
+}
+
+/* start of logo-container */
+.logo-container {
+  height: 100%;
+}
+.logo-container > a {
+  height: 100%;
+}
+.logo-container > a > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo-container > a > div > p {
+  font-size: 20px;
+}
+.logo-container > a > div > img {
+  height: 100%;
+}
+/* end of logo-container */
+
+/* start of links-container */
+.links-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.links-container > a {
+  font-size: 20px;
+  /* border: 1px solid black; */
+  padding: 0 8px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+.links-container > a:hover {
+  background-color: rgba(128, 128, 128, 0.397);
+}
+/* end of links-container */
+
+/* end of nav */
+
+/* start of main */
+/* main {
+  padding-top: 80px;
+} */
+main > section {
+  padding-top: 80px;
+}
+main > section > h1 {
+  text-align: center;
+}
+#about {
+  height: 100vh;
+  padding-top: 120px;
+}
+/* end of main */
